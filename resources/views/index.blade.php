@@ -17,11 +17,11 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Roboto:100,300,400,500,700|Philosopher:400,400i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="{{asset("assets/vendor/aos/aos.css")}} " rel="stylesheet">
-  <link href="{{asset("assets/vendor/bootstrap/css/bootstrap.min.css")}} " rel="stylesheet">
-  <link href="{{asset("assets/vendor/bootstrap-icons/bootstrap-icons.css")}} " rel="stylesheet">
+  <link href="{{asset("assets/vendor/aos/aos.css")}}" rel="stylesheet">
+  <link href="{{asset("assets/vendor/bootstrap/css/bootstrap.min.css")}}" rel="stylesheet">
+  <link href="{{asset("assets/vendor/bootstrap-icons/bootstrap-icons.css")}}" rel="stylesheet">
   <link href="{{asset("assets/vendor/glightbox/css/glightbox.min.css")}} " rel="stylesheet">
-  <link href="{{asset("assets/vendor/swiper/swiper-bundle.min.css")}} " rel="stylesheet">
+  <link href="{{asset("assets/vendor/swiper/swiper-bundle.min.css")}}" rel="stylesheet">
 
   <!-- Template Main CSS File -->
   <link href="{{asset("assets/css/style.css")}}" rel="stylesheet">
@@ -43,7 +43,7 @@
     <div class="hero-container" data-aos="fade-in">
       <h1>Welcome to lushidev</h1>
       <h2>une communauté dédiée à l'échange et au partage d'idées  &amp; more...</h2>
-      <img src="assets/img/hero-img.png" alt="Hero Imgs" data-aos="zoom-out" data-aos-delay="100">
+      <img src="{{asset(" assets/img/hero-img.png")}}" alt="lushidev" data-aos="zoom-out" data-aos-delay="100">
       <a href="#get-started" class="btn-get-started scrollto">Rejoindre</a>
     </div>
   </section><!-- End Hero Section -->
@@ -68,7 +68,7 @@
           <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="100">
             <div class="feature-block">
 
-              <img src="assets/img/svg/cloud.svg" alt="img">
+              <img src="{{asset("assets/img/svg/cloud.svg")}}" alt="lushidev">
               <h4>le blog</h4>
               <p>Nous partageons différents articles liés à l'informatique, plus particulièrement la programmation</p>
               <a href="#"></a>
@@ -79,7 +79,7 @@
           <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="200">
             <div class="feature-block">
 
-              <img src="assets/img/svg/planet.svg" alt="img">
+              <img src="{{asset("assets/img/svg/planet.svg")}}" alt="lushidev">
               <h4>les évènements</h4>
               <p>Nous organisons des meet up et tech talks en vu de partager nos expériences physiquement et virtuellement</p>
               <a href="#"></a>
@@ -90,7 +90,7 @@
           <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="300">
             <div class="feature-block">
 
-              <img src="assets/img/svg/asteroid.svg" alt="img">
+              <img src="{{asset("assets/img/svg/asteroid.svg")}}" alt="lushidev ">
               <h4>build the app everyone love</h4>
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
               <a href="#">read more</a>
@@ -117,11 +117,11 @@
               <p>
 
               <ul class="list-unstyled">
-                <li><i class="vi bi-chevron-right"></i>partage</li>
-                <li><i class="vi bi-chevron-right"></i>lear</li>
-                <li><i class="vi bi-chevron-right"></i>Easy to Use</li>
-                <li><i class="vi bi-chevron-right"></i>Unlimited Features</li>
-                <li><i class="vi bi-chevron-right"></i>Unlimited Features</li>
+                <li><i class="vi bi-chevron-right"></i>partager</li>
+                <li><i class="vi bi-chevron-right"></i>Apprendre</li>
+                <li><i class="vi bi-chevron-right"></i>Innover</li>
+                <li><i class="vi bi-chevron-right"></i>Réussir </li>
+                <li><i class="vi bi-chevron-right"></i>Communiquer </li>
               </ul>
 
             </div>
@@ -136,7 +136,7 @@
 
       <div class="container" data-aos="fade-up">
         <div class="section-title text-center">
-          <h2>Amazing Features.</h2>
+          <h2>Quelques projet</h2>
           <p class="separator">Integer cursus bibendum augue ac cursus .</p>
         </div>
 
