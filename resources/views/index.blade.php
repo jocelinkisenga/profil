@@ -35,7 +35,7 @@
 </head>
 
 <body>
-  @include("inc/header")
+  @include("Inc/header")
 <!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
