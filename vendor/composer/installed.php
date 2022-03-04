@@ -1,11 +1,11 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => '0950da9f59feeb564e9444eb901b7b29eb08f105',
         'name' => 'laravel/laravel',
         'dev' => true,
     ),
@@ -376,6 +376,15 @@
                 0 => 'v9.3.0',
             ),
         ),
+        'irazasyed/telegram-bot-sdk' => array(
+            'pretty_version' => 'v3.5',
+            'version' => '3.5.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../irazasyed/telegram-bot-sdk',
+            'aliases' => array(),
+            'reference' => '95d41acf496b95e3728dd3969721465391373182',
+            'dev_requirement' => false,
+        ),
         'kodova/hamcrest-php' => array(
             'dev_requirement' => true,
             'replaced' => array(
@@ -401,12 +410,12 @@
             'dev_requirement' => false,
         ),
         'laravel/laravel' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => '0950da9f59feeb564e9444eb901b7b29eb08f105',
             'dev_requirement' => false,
         ),
         'laravel/sail' => array(
@@ -461,6 +470,15 @@
             'install_path' => __DIR__ . '/../league/config',
             'aliases' => array(),
             'reference' => 'a9d39eeeb6cc49d10a6e6c36f22c4c1f4a767f3e',
+            'dev_requirement' => false,
+        ),
+        'league/event' => array(
+            'pretty_version' => '2.2.0',
+            'version' => '2.2.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../league/event',
+            'aliases' => array(),
+            'reference' => 'd2cc124cf9a3fab2bb4ff963307f60361ce4d119',
             'dev_requirement' => false,
         ),
         'league/flysystem' => array(
