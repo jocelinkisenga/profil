@@ -1,5 +1,5 @@
-@extends("index")
-    @section("content")
+@extends('index')
+    @section('content')
         <div class="showcase-area">
           <div class="container">
             <div class="left">
@@ -18,18 +18,10 @@
             </div>
 
             <div class="right">
-              <img src="./img/Person.png" alt="Person Image" class="person" />
+              <img src="{{asset("img/Person.png")}}" alt="Person Image" class="person" />
             </div>
           </div>
         </div>
 
-        <div class="bottom-area">
-          <div class="container">
-            <button class="toggle-btn">
-              <i class="far fa-moon"></i>
-              <i class="far fa-sun"></i>
-            </button>
-          </div>
-        </div>
-      </div>
+ 
 @endsection
