@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use Telegram;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -12,7 +12,13 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::post('/42yUojv1YQPOssPEpn5i3q6vjdhh7hl7djVWDIAVhFDRMAwZ1tj0Og2v4PWyj4PZ/webhook', function () {
+    $update = Telegram::commandsHandler(true);
+});
 
 Route::get('/', function () {
     return view('index');
+});
+Route::get('/setwebhook', function () {
+	$response = Telegram::setWebhook(['url' => env(‘TELEGRAM_WEBHOOK_URL]));
 });

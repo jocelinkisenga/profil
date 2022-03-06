@@ -36,9 +36,11 @@ return [
             'username'            => 'lushidevBot',
             'token'               => env('TELEGRAM_BOT_TOKEN', '5159850242:AAEK7rhuArPSHdsr5TzcDeNoFzVgqeCoRoE'),
             'certificate_path'    => env('TELEGRAM_CERTIFICATE_PATH', 'YOUR-CERTIFICATE-PATH'),
-            'webhook_url'         => env('TELEGRAM_WEBHOOK_URL', 'YOUR-BOT-WEBHOOK-URL'),
+            'webhook_url'         => env('TELEGRAM_WEBHOOK_URL', 'https://lushidev.monopoleglobal.com/42yUojv1YQPOssPEpn5i3q6vjdhh7hl7djVWDIAVhFDRMAwZ1tj0Og2v4PWyj4PZ/webhook'),
             'commands'            => [
                 //Acme\Project\Commands\MyTelegramBot\BotCommand::class
+             App\Telegram\Commands\HelpCommand::class,
+                
             ],
         ],
 
@@ -116,7 +118,8 @@ return [
     |
     */
     'commands'                     => [
-        Telegram\Bot\Commands\HelpCommand::class,
+        //Telegram\Bot\Commands\HelpCommand::class,
+        //App\Telegram\Commands\HelpCommand::class, 
     ],
 
     /*
