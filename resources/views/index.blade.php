@@ -57,6 +57,6 @@
   </main>
 
     <script src="https://kit.fontawesome.com/a81368914c.js"></script>
-    <script src="{{asset("Main.js"))}}"></script>
+    <script src="{{asset("Main.js")}}"></script>
 </body>
 </html>
