@@ -20,5 +20,5 @@ Route::get('/', function () {
     return view('index');
 });
 Route::get('/setwebhook', function () {
-	$response = Telegram::setWebhook(['url' => env(‘TELEGRAM_WEBHOOK_URL')]);
+	$response = Telegram::setWebhook(['url' => env('TELEGRAM_WEBHOOK_URL')]);
 });
